@@ -97,7 +97,7 @@ def get_cached_pipeline_state():
 def main():
     # Sidebar Header
     st.sidebar.markdown("## 📈 HengSeng Agent")
-    st.sidebar.caption("CrowdWisdomTrading Internship Assessment")
+    st.sidebar.caption("Institutional Quantitative Trading Platform")
 
     # Pipeline Control in Sidebar
     st.sidebar.markdown("---")

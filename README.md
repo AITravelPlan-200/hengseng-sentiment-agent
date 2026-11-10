@@ -6,7 +6,7 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.8.0-orange.svg)](https://scikit-learn.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-*Developed for the AI Agents Developer Internship Assessment at CrowdWisdomTrading.*
+*CrowdWisdomTrading Institutional Quantitative Research System.*
 
 ---
 
@@ -98,7 +98,7 @@ All tickers, cashtags, native names, and search queries are fully configurable i
 
 ## 5. Social Media Scraping Architecture (Apify)
 
-The assessment requires **at least two distinct social data sources per exchange**:
+The system integrates **at least two distinct social data sources per exchange**:
 
 ```
 Hong Kong (HKEX):
@@ -320,4 +320,4 @@ TAVILY_API_KEY = "your_key"
 
 ## 14. Academic & Professional Disclaimer
 
-This software is developed strictly for quantitative research, academic evaluation, and the **CrowdWisdomTrading Developer Internship Assessment**. Machine learning price projections, support/resistance levels, and sentiment classifications are probabilistic mathematical estimates and **do not constitute financial, investment, or legal advice**.
+This software is developed strictly for quantitative research, academic evaluation, and institutional market intelligence. Machine learning price projections, support/resistance levels, and sentiment classifications are probabilistic mathematical estimates and **do not constitute financial, investment, or legal advice**.

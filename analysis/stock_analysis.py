@@ -152,7 +152,7 @@ class StockIntelligenceEngine:
             "prediction_confidence": confidence,
             "uncertainty_interval": uncertainty_interval,
             "disclaimer": (
-                "DISCLAIMER: For informational, quantitative research, and assessment purposes only. "
+                "DISCLAIMER: For informational and quantitative research purposes only. "
                 "Machine learning projections and sentiment indicators are probabilistic estimates "
                 "and do not constitute guaranteed financial or investment advice."
             )
