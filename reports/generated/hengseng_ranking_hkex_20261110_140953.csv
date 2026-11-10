@@ -1,0 +1,13 @@
+﻿Rank,ticker,company_name,exchange,current_price,social_mention_count,social_sentiment_score,news_sentiment_score,combined_sentiment_score,predicted_next_period_price,predicted_price_movement_pct,suggested_position,Ranking_Category
+1,0700.HK,Tencent,HKEX,410.0,25,0.45,0.35,0.4,415.0,1.22,Long,by_social_mentions
+2,9988.HK,Alibaba,HKEX,88.0,18,-0.2,-0.1,-0.15,86.5,-1.7,Short,by_social_mentions
+1,0700.HK,Tencent,HKEX,410.0,25,0.45,0.35,0.4,415.0,1.22,Long,by_positive_sentiment
+2,9988.HK,Alibaba,HKEX,88.0,18,-0.2,-0.1,-0.15,86.5,-1.7,Short,by_positive_sentiment
+1,9988.HK,Alibaba,HKEX,88.0,18,-0.2,-0.1,-0.15,86.5,-1.7,Short,by_negative_sentiment
+2,0700.HK,Tencent,HKEX,410.0,25,0.45,0.35,0.4,415.0,1.22,Long,by_negative_sentiment
+1,0700.HK,Tencent,HKEX,410.0,25,0.45,0.35,0.4,415.0,1.22,Long,by_combined_sentiment
+2,9988.HK,Alibaba,HKEX,88.0,18,-0.2,-0.1,-0.15,86.5,-1.7,Short,by_combined_sentiment
+1,0700.HK,Tencent,HKEX,410.0,25,0.45,0.35,0.4,415.0,1.22,Long,by_predicted_increase
+2,9988.HK,Alibaba,HKEX,88.0,18,-0.2,-0.1,-0.15,86.5,-1.7,Short,by_predicted_increase
+1,9988.HK,Alibaba,HKEX,88.0,18,-0.2,-0.1,-0.15,86.5,-1.7,Short,by_predicted_decrease
+2,0700.HK,Tencent,HKEX,410.0,25,0.45,0.35,0.4,415.0,1.22,Long,by_predicted_decrease

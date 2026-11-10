@@ -1,0 +1,53 @@
+# Environment variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# PyTest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database and models
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+models/saved_models/*.joblib
+models/saved_models/*.json
+
+# Data files (keep sample data, ignore large temporary raw crawls)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
