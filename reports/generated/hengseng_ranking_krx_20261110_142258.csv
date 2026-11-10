@@ -1,0 +1,31 @@
+﻿Rank,ticker,company_name,exchange,current_price,social_mention_count,social_sentiment_score,news_sentiment_score,combined_sentiment_score,predicted_next_period_price,predicted_price_movement_pct,suggested_position,Ranking_Category
+1,005930.KS,Samsung Electronics,KRX,57000.0,5,0.5709,-0.4,0.0369,57122.78,0.22,Neutral,by_social_mentions
+2,000660.KS,SK Hynix,KRX,182000.0,5,0.5709,-0.4,0.0369,183007.8,0.55,Neutral,by_social_mentions
+3,005380.KS,Hyundai Motor,KRX,220000.0,5,0.5709,-0.4,0.0369,221041.22,0.47,Neutral,by_social_mentions
+4,373220.KS,LG Energy Solution,KRX,340000.0,5,0.5709,-0.4,0.0369,340850.75,0.25,Neutral,by_social_mentions
+5,000270.KS,Kia Corporation,KRX,98000.0,5,0.5709,-0.4,0.0369,97936.27,-0.07,Neutral,by_social_mentions
+1,005930.KS,Samsung Electronics,KRX,57000.0,5,0.5709,-0.4,0.0369,57122.78,0.22,Neutral,by_positive_sentiment
+2,000660.KS,SK Hynix,KRX,182000.0,5,0.5709,-0.4,0.0369,183007.8,0.55,Neutral,by_positive_sentiment
+3,005380.KS,Hyundai Motor,KRX,220000.0,5,0.5709,-0.4,0.0369,221041.22,0.47,Neutral,by_positive_sentiment
+4,373220.KS,LG Energy Solution,KRX,340000.0,5,0.5709,-0.4,0.0369,340850.75,0.25,Neutral,by_positive_sentiment
+5,000270.KS,Kia Corporation,KRX,98000.0,5,0.5709,-0.4,0.0369,97936.27,-0.07,Neutral,by_positive_sentiment
+1,005930.KS,Samsung Electronics,KRX,57000.0,5,0.5709,-0.4,0.0369,57122.78,0.22,Neutral,by_negative_sentiment
+2,000660.KS,SK Hynix,KRX,182000.0,5,0.5709,-0.4,0.0369,183007.8,0.55,Neutral,by_negative_sentiment
+3,005380.KS,Hyundai Motor,KRX,220000.0,5,0.5709,-0.4,0.0369,221041.22,0.47,Neutral,by_negative_sentiment
+4,373220.KS,LG Energy Solution,KRX,340000.0,5,0.5709,-0.4,0.0369,340850.75,0.25,Neutral,by_negative_sentiment
+5,000270.KS,Kia Corporation,KRX,98000.0,5,0.5709,-0.4,0.0369,97936.27,-0.07,Neutral,by_negative_sentiment
+1,005930.KS,Samsung Electronics,KRX,57000.0,5,0.5709,-0.4,0.0369,57122.78,0.22,Neutral,by_combined_sentiment
+2,000660.KS,SK Hynix,KRX,182000.0,5,0.5709,-0.4,0.0369,183007.8,0.55,Neutral,by_combined_sentiment
+3,005380.KS,Hyundai Motor,KRX,220000.0,5,0.5709,-0.4,0.0369,221041.22,0.47,Neutral,by_combined_sentiment
+4,373220.KS,LG Energy Solution,KRX,340000.0,5,0.5709,-0.4,0.0369,340850.75,0.25,Neutral,by_combined_sentiment
+5,000270.KS,Kia Corporation,KRX,98000.0,5,0.5709,-0.4,0.0369,97936.27,-0.07,Neutral,by_combined_sentiment
+1,000660.KS,SK Hynix,KRX,182000.0,5,0.5709,-0.4,0.0369,183007.8,0.55,Neutral,by_predicted_increase
+2,005380.KS,Hyundai Motor,KRX,220000.0,5,0.5709,-0.4,0.0369,221041.22,0.47,Neutral,by_predicted_increase
+3,373220.KS,LG Energy Solution,KRX,340000.0,5,0.5709,-0.4,0.0369,340850.75,0.25,Neutral,by_predicted_increase
+4,005930.KS,Samsung Electronics,KRX,57000.0,5,0.5709,-0.4,0.0369,57122.78,0.22,Neutral,by_predicted_increase
+5,000270.KS,Kia Corporation,KRX,98000.0,5,0.5709,-0.4,0.0369,97936.27,-0.07,Neutral,by_predicted_increase
+1,000270.KS,Kia Corporation,KRX,98000.0,5,0.5709,-0.4,0.0369,97936.27,-0.07,Neutral,by_predicted_decrease
+2,005930.KS,Samsung Electronics,KRX,57000.0,5,0.5709,-0.4,0.0369,57122.78,0.22,Neutral,by_predicted_decrease
+3,373220.KS,LG Energy Solution,KRX,340000.0,5,0.5709,-0.4,0.0369,340850.75,0.25,Neutral,by_predicted_decrease
+4,005380.KS,Hyundai Motor,KRX,220000.0,5,0.5709,-0.4,0.0369,221041.22,0.47,Neutral,by_predicted_decrease
+5,000660.KS,SK Hynix,KRX,182000.0,5,0.5709,-0.4,0.0369,183007.8,0.55,Neutral,by_predicted_decrease
