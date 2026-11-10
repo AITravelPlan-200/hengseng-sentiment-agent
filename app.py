@@ -94,6 +94,19 @@ def get_cached_pipeline_state():
     """Retrieve preloaded pipeline state or load latest data from SQLite."""
     return orchestrator.run_full_pipeline()
 
+def ensure_database_ready():
+    """Ensure SQLite database has initial baseline data on fresh deployment."""
+    try:
+        rows = db.execute_query("SELECT COUNT(*) as cnt FROM social_posts;")
+        cnt = rows[0]["cnt"] if rows else 0
+        if cnt == 0:
+            from data.seed_data import seed_sample_data
+            seed_sample_data()
+    except Exception:
+        pass
+
+ensure_database_ready()
+
 def main():
     # Sidebar Header
     st.sidebar.markdown("## 📈 HengSeng Agent")
